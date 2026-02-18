@@ -1,0 +1,2155 @@
+{
+  "metadata": {
+    "description": "Microsoft Fabric icon index for coding agent consumption",
+    "source": "Official Microsoft Fabric Icons (@fabric-msft/svg-icons)",
+    "repo": "AlahmadiQ8/icons",
+    "base_url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons",
+    "total_icons": 175,
+    "generated_at": "2026-02-18T17:48:51.674273+00:00"
+  },
+  "icons": [
+    {
+      "id": "add_pipeline",
+      "name": "Add Pipeline",
+      "description": "Add a new data pipeline for orchestrating data movement and transformation",
+      "tags": [
+        "add",
+        "orchestration",
+        "pipeline"
+      ],
+      "filename": "add_pipeline_48_non-item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/add_pipeline_48_non-item.svg"
+    },
+    {
+      "id": "ai_skills",
+      "name": "Ai Skills",
+      "description": "AI Skills item for building AI-powered capabilities in Fabric",
+      "tags": [
+        "ai",
+        "skills"
+      ],
+      "filename": "ai_skills_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/ai_skills_48_item.svg"
+    },
+    {
+      "id": "apps",
+      "name": "Apps",
+      "description": "Applications or apps within the Fabric platform",
+      "tags": [
+        "apps"
+      ],
+      "filename": "apps_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/apps_48_item.svg"
+    },
+    {
+      "id": "book_database",
+      "name": "Book Database",
+      "description": "Database documentation or reference book",
+      "tags": [
+        "book",
+        "data",
+        "database"
+      ],
+      "filename": "book_database_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/book_database_20_filled.svg"
+    },
+    {
+      "id": "book_open_data_cloud",
+      "name": "Book Open Data Cloud",
+      "description": "Open book with data cloud for cloud data documentation",
+      "tags": [
+        "book",
+        "cloud",
+        "data",
+        "open"
+      ],
+      "filename": "book_open_data_cloud_24_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/book_open_data_cloud_24_filled.svg"
+    },
+    {
+      "id": "branch_fork_link",
+      "name": "Branch Fork Link",
+      "description": "Branch fork with link for version control or data lineage",
+      "tags": [
+        "branch",
+        "fork",
+        "link"
+      ],
+      "filename": "branch_fork_link_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/branch_fork_link_32_filled.svg"
+    },
+    {
+      "id": "branch_fork_signal",
+      "name": "Branch Fork Signal",
+      "description": "Branch fork with signal indicator",
+      "tags": [
+        "branch",
+        "fork",
+        "signal"
+      ],
+      "filename": "branch_fork_signal_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/branch_fork_signal_32_filled.svg"
+    },
+    {
+      "id": "cloud_endpoint",
+      "name": "Cloud Endpoint",
+      "description": "Cloud endpoint or API connection point",
+      "tags": [
+        "cloud",
+        "endpoint"
+      ],
+      "filename": "cloud_endpoint_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/cloud_endpoint_20_filled.svg"
+    },
+    {
+      "id": "cohort",
+      "name": "Cohort",
+      "description": "Cohort analysis grouping in Fabric",
+      "tags": [
+        "cohort"
+      ],
+      "filename": "cohort_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/cohort_48_item.svg"
+    },
+    {
+      "id": "column_relationship",
+      "name": "Column Relationship",
+      "description": "Column relationship for data modeling connections",
+      "tags": [
+        "column",
+        "relationship"
+      ],
+      "filename": "column_relationship_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/column_relationship_20_filled.svg"
+    },
+    {
+      "id": "connector",
+      "name": "Connector",
+      "description": "Data connector for linking data sources",
+      "tags": [
+        "connector"
+      ],
+      "filename": "connector_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/connector_20_filled.svg"
+    },
+    {
+      "id": "copilot",
+      "name": "Copilot",
+      "description": "Microsoft Copilot AI assistant",
+      "tags": [
+        "ai",
+        "copilot"
+      ],
+      "filename": "copilot_48_color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/copilot_48_color.svg"
+    },
+    {
+      "id": "copy_job",
+      "name": "Copy Job",
+      "description": "Copy job for data replication tasks in Fabric",
+      "tags": [
+        "copy",
+        "job"
+      ],
+      "filename": "copy_job_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/copy_job_48_item.svg"
+    },
+    {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "description": "Dashboard for data visualization and monitoring in Fabric",
+      "tags": [
+        "analytics",
+        "dashboard"
+      ],
+      "filename": "dashboard_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/dashboard_48_item.svg"
+    },
+    {
+      "id": "data_engineering",
+      "name": "Data Engineering",
+      "description": "Fabric Data Engineering workload for big data processing with Apache Spark",
+      "tags": [
+        "data",
+        "engineering"
+      ],
+      "filename": "data_engineering_48_color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/data_engineering_48_color.svg"
+    },
+    {
+      "id": "data_factory",
+      "name": "Data Factory",
+      "description": "Data Factory workload for data integration, movement, and transformation",
+      "tags": [
+        "data",
+        "factory"
+      ],
+      "filename": "data_factory_48_color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/data_factory_48_color.svg"
+    },
+    {
+      "id": "data_science",
+      "name": "Data Science",
+      "description": "Fabric Data Science workload for machine learning and AI model training",
+      "tags": [
+        "data",
+        "science"
+      ],
+      "filename": "data_science_48_color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/data_science_48_color.svg"
+    },
+    {
+      "id": "data_warehouse",
+      "name": "Data Warehouse",
+      "description": "Fabric Data Warehouse for enterprise-scale SQL analytics and full T-SQL support",
+      "tags": [
+        "data",
+        "storage",
+        "warehouse"
+      ],
+      "filename": "data_warehouse_48_color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/data_warehouse_48_color.svg"
+    },
+    {
+      "id": "database_add",
+      "name": "Database Add",
+      "description": "Add a new database",
+      "tags": [
+        "add",
+        "data",
+        "database"
+      ],
+      "filename": "database_add_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_add_20_filled.svg"
+    },
+    {
+      "id": "database_arrow_forward",
+      "name": "Database Arrow Forward",
+      "description": "Database with forward arrow for data migration",
+      "tags": [
+        "arrow",
+        "data",
+        "database",
+        "forward",
+        "navigation"
+      ],
+      "filename": "database_arrow_forward_24_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_arrow_forward_24_filled.svg"
+    },
+    {
+      "id": "database_arrow_right_enter",
+      "name": "Database Arrow Right Enter",
+      "description": "Database with enter arrow for data ingestion",
+      "tags": [
+        "arrow",
+        "data",
+        "database",
+        "enter",
+        "navigation",
+        "right"
+      ],
+      "filename": "database_arrow_right_enter_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_arrow_right_enter_20_filled.svg"
+    },
+    {
+      "id": "database_arrow_sync",
+      "name": "Database Arrow Sync",
+      "description": "Database synchronization",
+      "tags": [
+        "arrow",
+        "data",
+        "database",
+        "navigation",
+        "sync"
+      ],
+      "filename": "database_arrow_sync_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_arrow_sync_20_filled.svg"
+    },
+    {
+      "id": "database_asterisk",
+      "name": "Database Asterisk",
+      "description": "Database with asterisk marker",
+      "tags": [
+        "asterisk",
+        "data",
+        "database"
+      ],
+      "filename": "database_asterisk_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_asterisk_20_filled.svg"
+    },
+    {
+      "id": "database_checkmark",
+      "name": "Database Checkmark",
+      "description": "Database with checkmark validation",
+      "tags": [
+        "checkmark",
+        "data",
+        "database"
+      ],
+      "filename": "database_checkmark_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_checkmark_20_filled.svg"
+    },
+    {
+      "id": "database_crown",
+      "name": "Database Crown",
+      "description": "Primary or master database",
+      "tags": [
+        "crown",
+        "data",
+        "database"
+      ],
+      "filename": "database_crown_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_crown_20_filled.svg"
+    },
+    {
+      "id": "database_dismiss",
+      "name": "Database Dismiss",
+      "description": "Dismiss or remove database",
+      "tags": [
+        "data",
+        "database",
+        "dismiss"
+      ],
+      "filename": "database_dismiss_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_dismiss_20_filled.svg"
+    },
+    {
+      "id": "database_kql",
+      "name": "Database Kql",
+      "description": "KQL (Kusto Query Language) database for real-time analytics",
+      "tags": [
+        "data",
+        "database",
+        "kql",
+        "query"
+      ],
+      "filename": "database_kql_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_kql_32_filled.svg"
+    },
+    {
+      "id": "database_money",
+      "name": "Database Money",
+      "description": "Database with monetary data or cost tracking",
+      "tags": [
+        "data",
+        "database",
+        "money"
+      ],
+      "filename": "database_money_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_money_20_filled.svg"
+    },
+    {
+      "id": "database_multiple_kql",
+      "name": "Database Multiple Kql",
+      "description": "Multiple KQL databases",
+      "tags": [
+        "data",
+        "database",
+        "kql",
+        "multiple",
+        "query"
+      ],
+      "filename": "database_multiple_kql_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_multiple_kql_20_filled.svg"
+    },
+    {
+      "id": "database_pulse",
+      "name": "Database Pulse",
+      "description": "Database health monitoring or heartbeat",
+      "tags": [
+        "data",
+        "database",
+        "pulse"
+      ],
+      "filename": "database_pulse_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_pulse_20_filled.svg"
+    },
+    {
+      "id": "database_ribbon",
+      "name": "Database Ribbon",
+      "description": "Featured or certified database",
+      "tags": [
+        "data",
+        "database",
+        "ribbon"
+      ],
+      "filename": "database_ribbon_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_ribbon_20_filled.svg"
+    },
+    {
+      "id": "database_sql",
+      "name": "Database Sql",
+      "description": "SQL database for structured query operations",
+      "tags": [
+        "data",
+        "database",
+        "query",
+        "sql"
+      ],
+      "filename": "database_sql_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_sql_32_filled.svg"
+    },
+    {
+      "id": "database_stack_asterisk",
+      "name": "Database Stack Asterisk",
+      "description": "Stacked databases with asterisk marker",
+      "tags": [
+        "asterisk",
+        "data",
+        "database",
+        "stack"
+      ],
+      "filename": "database_stack_asterisk_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_stack_asterisk_20_filled.svg"
+    },
+    {
+      "id": "database_stack_pulse",
+      "name": "Database Stack Pulse",
+      "description": "Stacked databases with health monitoring",
+      "tags": [
+        "data",
+        "database",
+        "pulse",
+        "stack"
+      ],
+      "filename": "database_stack_pulse_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_stack_pulse_32_filled.svg"
+    },
+    {
+      "id": "database_swap",
+      "name": "Database Swap",
+      "description": "Swap or exchange database",
+      "tags": [
+        "data",
+        "database",
+        "swap"
+      ],
+      "filename": "database_swap_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_swap_20_filled.svg"
+    },
+    {
+      "id": "database_table",
+      "name": "Database Table",
+      "description": "Database table view",
+      "tags": [
+        "data",
+        "database",
+        "table"
+      ],
+      "filename": "database_table_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/database_table_20_filled.svg"
+    },
+    {
+      "id": "databases",
+      "name": "Databases",
+      "description": "Multiple databases collection",
+      "tags": [
+        "data",
+        "databases"
+      ],
+      "filename": "databases_48_color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/databases_48_color.svg"
+    },
+    {
+      "id": "dataflow",
+      "name": "Dataflow",
+      "description": "Dataflow for low-code data ingestion and transformation",
+      "tags": [
+        "data",
+        "dataflow",
+        "orchestration"
+      ],
+      "filename": "dataflow_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/dataflow_48_item.svg"
+    },
+    {
+      "id": "dataflow_gen2",
+      "name": "Dataflow Gen2",
+      "description": "Dataflow Gen2 providing enhanced low-code data ingestion from hundreds of sources",
+      "tags": [
+        "data",
+        "dataflow",
+        "gen2",
+        "orchestration"
+      ],
+      "filename": "dataflow_gen2_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/dataflow_gen2_48_item.svg"
+    },
+    {
+      "id": "datamart",
+      "name": "Datamart",
+      "description": "Datamart item for self-service relational database in Fabric",
+      "tags": [
+        "data",
+        "datamart"
+      ],
+      "filename": "datamart_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/datamart_48_item.svg"
+    },
+    {
+      "id": "developer_board_lightning_asterisk",
+      "name": "Developer Board Lightning Asterisk",
+      "description": "Developer board with lightning and asterisk",
+      "tags": [
+        "asterisk",
+        "board",
+        "developer",
+        "lightning"
+      ],
+      "filename": "developer_board_lightning_asterisk_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/developer_board_lightning_asterisk_20_filled.svg"
+    },
+    {
+      "id": "developer_board_lightning_kql",
+      "name": "Developer Board Lightning Kql",
+      "description": "Developer board with KQL and lightning",
+      "tags": [
+        "board",
+        "developer",
+        "kql",
+        "lightning",
+        "query"
+      ],
+      "filename": "developer_board_lightning_kql_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/developer_board_lightning_kql_20_filled.svg"
+    },
+    {
+      "id": "developer_board_lightning_sparkle",
+      "name": "Developer Board Lightning Sparkle",
+      "description": "Developer board with AI sparkle and lightning",
+      "tags": [
+        "ai",
+        "board",
+        "developer",
+        "lightning",
+        "sparkle"
+      ],
+      "filename": "developer_board_lightning_sparkle_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/developer_board_lightning_sparkle_20_filled.svg"
+    },
+    {
+      "id": "diagram_arrow_circle",
+      "name": "Diagram Arrow Circle",
+      "description": "Diagram with circular arrow flow",
+      "tags": [
+        "arrow",
+        "circle",
+        "diagram",
+        "navigation"
+      ],
+      "filename": "diagram_arrow_circle_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/diagram_arrow_circle_20_filled.svg"
+    },
+    {
+      "id": "diagram_branch",
+      "name": "Diagram Branch",
+      "description": "Diagram branch for flowcharts and process diagrams",
+      "tags": [
+        "branch",
+        "diagram"
+      ],
+      "filename": "diagram_branch_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/diagram_branch_32_filled.svg"
+    },
+    {
+      "id": "diagram_branch_link",
+      "name": "Diagram Branch Link",
+      "description": "Diagram branch with link connection",
+      "tags": [
+        "branch",
+        "diagram",
+        "link"
+      ],
+      "filename": "diagram_branch_link_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/diagram_branch_link_20_filled.svg"
+    },
+    {
+      "id": "diagram_branch_sync",
+      "name": "Diagram Branch Sync",
+      "description": "Diagram branch with synchronization",
+      "tags": [
+        "branch",
+        "diagram",
+        "sync"
+      ],
+      "filename": "diagram_branch_sync_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/diagram_branch_sync_32_filled.svg"
+    },
+    {
+      "id": "digital_twin_builder",
+      "name": "Digital Twin Builder",
+      "description": "Digital twin builder for creating digital representations of real-world environments",
+      "tags": [
+        "builder",
+        "digital",
+        "twin"
+      ],
+      "filename": "digital_twin_builder_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/digital_twin_builder_48_item.svg"
+    },
+    {
+      "id": "digital_twin_builder_flow",
+      "name": "Digital Twin Builder Flow",
+      "description": "Digital twin builder flow for modeling processes",
+      "tags": [
+        "builder",
+        "digital",
+        "flow",
+        "twin"
+      ],
+      "filename": "digital_twin_builder_flow_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/digital_twin_builder_flow_48_item.svg"
+    },
+    {
+      "id": "document_multiple_dax",
+      "name": "Document Multiple Dax",
+      "description": "Multiple DAX expression documents for Power BI measures",
+      "tags": [
+        "dax",
+        "document",
+        "multiple"
+      ],
+      "filename": "document_multiple_dax_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/document_multiple_dax_20_filled.svg"
+    },
+    {
+      "id": "document_multiple_dax_arrow_diagonal_up_right",
+      "name": "Document Multiple Dax Arrow Diagonal Up Right",
+      "description": "DAX documents with export arrow",
+      "tags": [
+        "arrow",
+        "dax",
+        "diagonal",
+        "document",
+        "multiple",
+        "navigation",
+        "right",
+        "up"
+      ],
+      "filename": "document_multiple_dax_arrow_diagonal_up_right_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/document_multiple_dax_arrow_diagonal_up_right_20_filled.svg"
+    },
+    {
+      "id": "document_pq",
+      "name": "Document Pq",
+      "description": "Power Query (PQ) document for data transformation",
+      "tags": [
+        "document",
+        "pq"
+      ],
+      "filename": "document_pq_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/document_pq_32_filled.svg"
+    },
+    {
+      "id": "document_sql",
+      "name": "Document Sql",
+      "description": "SQL script document",
+      "tags": [
+        "document",
+        "query",
+        "sql"
+      ],
+      "filename": "document_sql_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/document_sql_20_filled.svg"
+    },
+    {
+      "id": "document_ssis",
+      "name": "Document Ssis",
+      "description": "SSIS (SQL Server Integration Services) package document",
+      "tags": [
+        "document",
+        "ssis"
+      ],
+      "filename": "document_ssis_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/document_ssis_20_filled.svg"
+    },
+    {
+      "id": "document_ssis_play",
+      "name": "Document Ssis Play",
+      "description": "SSIS package execution",
+      "tags": [
+        "document",
+        "play",
+        "ssis"
+      ],
+      "filename": "document_ssis_play_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/document_ssis_play_20_filled.svg"
+    },
+    {
+      "id": "document_tmdl",
+      "name": "Document Tmdl",
+      "description": "TMDL (Tabular Model Definition Language) document",
+      "tags": [
+        "document",
+        "tmdl"
+      ],
+      "filename": "document_tmdl_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/document_tmdl_20_filled.svg"
+    },
+    {
+      "id": "document_tmdl_arrow_diagonal_up_right",
+      "name": "Document Tmdl Arrow Diagonal Up Right",
+      "description": "TMDL document with export arrow",
+      "tags": [
+        "arrow",
+        "diagonal",
+        "document",
+        "navigation",
+        "right",
+        "tmdl",
+        "up"
+      ],
+      "filename": "document_tmdl_arrow_diagonal_up_right_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/document_tmdl_arrow_diagonal_up_right_20_filled.svg"
+    },
+    {
+      "id": "endpoint",
+      "name": "Endpoint",
+      "description": "API or service endpoint",
+      "tags": [
+        "endpoint"
+      ],
+      "filename": "endpoint_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/endpoint_20_filled.svg"
+    },
+    {
+      "id": "environment",
+      "name": "Environment",
+      "description": "Fabric Environment item for managing Spark runtime configurations",
+      "tags": [
+        "environment"
+      ],
+      "filename": "environment_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/environment_48_item.svg"
+    },
+    {
+      "id": "event_house",
+      "name": "Event House",
+      "description": "Eventhouse for handling and analyzing large volumes of real-time data",
+      "tags": [
+        "event",
+        "house",
+        "streaming"
+      ],
+      "filename": "event_house_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/event_house_48_item.svg"
+    },
+    {
+      "id": "event_schema_set",
+      "name": "Event Schema Set",
+      "description": "Event schema set for defining event structures",
+      "tags": [
+        "event",
+        "modeling",
+        "schema",
+        "set",
+        "streaming"
+      ],
+      "filename": "event_schema_set_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/event_schema_set_48_item.svg"
+    },
+    {
+      "id": "eventstream",
+      "name": "Eventstream",
+      "description": "Eventstream for capturing, transforming, and routing real-time events",
+      "tags": [
+        "eventstream",
+        "streaming"
+      ],
+      "filename": "eventstream_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/eventstream_48_item.svg"
+    },
+    {
+      "id": "experiments",
+      "name": "Experiments",
+      "description": "Machine learning experiments for organizing and tracking ML runs",
+      "tags": [
+        "experiments"
+      ],
+      "filename": "experiments_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/experiments_48_item.svg"
+    },
+    {
+      "id": "exploration",
+      "name": "Exploration",
+      "description": "Data exploration item in Fabric",
+      "tags": [
+        "exploration"
+      ],
+      "filename": "exploration_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/exploration_48_item.svg"
+    },
+    {
+      "id": "external_dataflow",
+      "name": "External Dataflow",
+      "description": "External dataflow from outside sources",
+      "tags": [
+        "data",
+        "dataflow",
+        "external",
+        "orchestration"
+      ],
+      "filename": "external_dataflow_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/external_dataflow_48_item.svg"
+    },
+    {
+      "id": "external_datamart",
+      "name": "External Datamart",
+      "description": "External datamart connection",
+      "tags": [
+        "data",
+        "datamart",
+        "external"
+      ],
+      "filename": "external_datamart_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/external_datamart_48_item.svg"
+    },
+    {
+      "id": "external_semantic_model",
+      "name": "External Semantic Model",
+      "description": "External semantic model reference",
+      "tags": [
+        "external",
+        "model",
+        "modeling",
+        "semantic"
+      ],
+      "filename": "external_semantic_model_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/external_semantic_model_48_item.svg"
+    },
+    {
+      "id": "fabric",
+      "name": "Fabric",
+      "description": "Microsoft Fabric unified analytics platform",
+      "tags": [
+        "fabric",
+        "platform"
+      ],
+      "filename": "fabric_48_color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/fabric_48_color.svg"
+    },
+    {
+      "id": "folder",
+      "name": "Folder",
+      "description": "Folder for organizing items",
+      "tags": [
+        "folder",
+        "organization"
+      ],
+      "filename": "folder_48_non-item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/folder_48_non-item.svg"
+    },
+    {
+      "id": "folder_checkmark",
+      "name": "Folder Checkmark",
+      "description": "Folder with checkmark validation",
+      "tags": [
+        "checkmark",
+        "folder",
+        "organization"
+      ],
+      "filename": "folder_checkmark_16_filled_multi-color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/folder_checkmark_16_filled_multi-color.svg"
+    },
+    {
+      "id": "folder_open_data_bar",
+      "name": "Folder Open Data Bar",
+      "description": "Open folder with data bar visualization",
+      "tags": [
+        "bar",
+        "data",
+        "folder",
+        "open",
+        "organization",
+        "visualization"
+      ],
+      "filename": "folder_open_data_bar_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/folder_open_data_bar_20_filled.svg"
+    },
+    {
+      "id": "folder_share",
+      "name": "Folder Share",
+      "description": "Shared folder",
+      "tags": [
+        "folder",
+        "organization",
+        "share"
+      ],
+      "filename": "folder_share_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/folder_share_20_filled.svg"
+    },
+    {
+      "id": "folder_table",
+      "name": "Folder Table",
+      "description": "Folder containing tables",
+      "tags": [
+        "data",
+        "folder",
+        "organization",
+        "table"
+      ],
+      "filename": "folder_table_24_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/folder_table_24_filled.svg"
+    },
+    {
+      "id": "function",
+      "name": "Function",
+      "description": "Function item in Fabric",
+      "tags": [
+        "function"
+      ],
+      "filename": "function_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/function_48_item.svg"
+    },
+    {
+      "id": "function_set",
+      "name": "Function Set",
+      "description": "Set of functions or function library",
+      "tags": [
+        "function",
+        "set"
+      ],
+      "filename": "function_set_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/function_set_32_filled.svg"
+    },
+    {
+      "id": "gauge_kql",
+      "name": "Gauge Kql",
+      "description": "KQL gauge visualization for metrics",
+      "tags": [
+        "gauge",
+        "kql",
+        "query",
+        "visualization"
+      ],
+      "filename": "gauge_kql_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/gauge_kql_32_filled.svg"
+    },
+    {
+      "id": "group_workspace",
+      "name": "Group Workspace",
+      "description": "Group workspace for team collaboration",
+      "tags": [
+        "group",
+        "workspace"
+      ],
+      "filename": "group_workspace_48_non-item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/group_workspace_48_non-item.svg"
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare",
+      "description": "Healthcare industry solution in Fabric",
+      "tags": [
+        "healthcare"
+      ],
+      "filename": "healthcare_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/healthcare_48_item.svg"
+    },
+    {
+      "id": "home_kql",
+      "name": "Home Kql",
+      "description": "KQL home or landing page",
+      "tags": [
+        "home",
+        "kql",
+        "query"
+      ],
+      "filename": "home_kql_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/home_kql_32_filled.svg"
+    },
+    {
+      "id": "home_more_lightning",
+      "name": "Home More Lightning",
+      "description": "Home with additional quick actions",
+      "tags": [
+        "home",
+        "lightning",
+        "more"
+      ],
+      "filename": "home_more_lightning_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/home_more_lightning_20_filled.svg"
+    },
+    {
+      "id": "home_tree_line",
+      "name": "Home Tree Line",
+      "description": "Home with tree line hierarchy",
+      "tags": [
+        "home",
+        "line",
+        "tree"
+      ],
+      "filename": "home_tree_line_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/home_tree_line_20_filled.svg"
+    },
+    {
+      "id": "home_waves",
+      "name": "Home Waves",
+      "description": "Home with waves indicating real-time or streaming",
+      "tags": [
+        "home",
+        "waves"
+      ],
+      "filename": "home_waves_48_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/home_waves_48_filled.svg"
+    },
+    {
+      "id": "import_notebook",
+      "name": "Import Notebook",
+      "description": "Import a notebook into Fabric",
+      "tags": [
+        "document",
+        "import",
+        "notebook"
+      ],
+      "filename": "import_notebook_48_non-item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/import_notebook_48_non-item.svg"
+    },
+    {
+      "id": "industry_solutions",
+      "name": "Industry Solutions",
+      "description": "Industry-specific solutions in Microsoft Fabric",
+      "tags": [
+        "industry",
+        "solutions"
+      ],
+      "filename": "industry_solutions_48_color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/industry_solutions_48_color.svg"
+    },
+    {
+      "id": "kql_database",
+      "name": "Kql Database",
+      "description": "KQL Database holding data for Kusto Query Language queries in an Eventhouse",
+      "tags": [
+        "data",
+        "database",
+        "kql",
+        "query"
+      ],
+      "filename": "kql_database_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/kql_database_48_item.svg"
+    },
+    {
+      "id": "kql_queryset",
+      "name": "Kql Queryset",
+      "description": "KQL Queryset for running, viewing, and manipulating KQL query results",
+      "tags": [
+        "kql",
+        "query",
+        "queryset"
+      ],
+      "filename": "kql_queryset_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/kql_queryset_48_item.svg"
+    },
+    {
+      "id": "kql_script",
+      "name": "Kql Script",
+      "description": "KQL script for writing Kusto queries",
+      "tags": [
+        "kql",
+        "query",
+        "script"
+      ],
+      "filename": "kql_script_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/kql_script_48_item.svg"
+    },
+    {
+      "id": "lakehouse",
+      "name": "Lakehouse",
+      "description": "Lakehouse database built over a data lake for big data processing with Apache Spark and SQL",
+      "tags": [
+        "lakehouse",
+        "storage"
+      ],
+      "filename": "lakehouse_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/lakehouse_48_item.svg"
+    },
+    {
+      "id": "links",
+      "name": "Links",
+      "description": "Links item for managing connections between items",
+      "tags": [
+        "links"
+      ],
+      "filename": "links_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/links_48_item.svg"
+    },
+    {
+      "id": "list_kql",
+      "name": "List Kql",
+      "description": "KQL list view",
+      "tags": [
+        "kql",
+        "list",
+        "query"
+      ],
+      "filename": "list_kql_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/list_kql_20_filled.svg"
+    },
+    {
+      "id": "list_sql",
+      "name": "List Sql",
+      "description": "SQL list view",
+      "tags": [
+        "list",
+        "query",
+        "sql"
+      ],
+      "filename": "list_sql_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/list_sql_20_filled.svg"
+    },
+    {
+      "id": "metric_sets",
+      "name": "Metric Sets",
+      "description": "Metric sets for tracking business metrics and KPIs",
+      "tags": [
+        "metric",
+        "sets"
+      ],
+      "filename": "metric_sets_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/metric_sets_48_item.svg"
+    },
+    {
+      "id": "mirrored_generic_database",
+      "name": "Mirrored Generic Database",
+      "description": "Mirrored database for data replication",
+      "tags": [
+        "data",
+        "database",
+        "generic",
+        "mirrored"
+      ],
+      "filename": "mirrored_generic_database_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/mirrored_generic_database_48_item.svg"
+    },
+    {
+      "id": "model",
+      "name": "Model",
+      "description": "Machine learning model trained to recognize patterns from data",
+      "tags": [
+        "model",
+        "modeling"
+      ],
+      "filename": "model_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/model_48_item.svg"
+    },
+    {
+      "id": "my_location_database",
+      "name": "My Location Database",
+      "description": "My location with database",
+      "tags": [
+        "data",
+        "database",
+        "location",
+        "my"
+      ],
+      "filename": "my_location_database_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/my_location_database_20_filled.svg"
+    },
+    {
+      "id": "my_workspace",
+      "name": "My Workspace",
+      "description": "Personal workspace in Fabric",
+      "tags": [
+        "my",
+        "workspace"
+      ],
+      "filename": "my_workspace_48_non-item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/my_workspace_48_non-item.svg"
+    },
+    {
+      "id": "no_access_semantic_model",
+      "name": "No Access Semantic Model",
+      "description": "Semantic model with no access permissions",
+      "tags": [
+        "access",
+        "model",
+        "modeling",
+        "no",
+        "semantic"
+      ],
+      "filename": "no_access_semantic_model_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/no_access_semantic_model_48_item.svg"
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "description": "Fabric notebook for multi-language interactive programming with Spark",
+      "tags": [
+        "document",
+        "notebook"
+      ],
+      "filename": "notebook_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/notebook_48_item.svg"
+    },
+    {
+      "id": "notebook_arrow_diagonal_up_right",
+      "name": "Notebook Arrow Diagonal Up Right",
+      "description": "Notebook with export/open arrow",
+      "tags": [
+        "arrow",
+        "diagonal",
+        "document",
+        "navigation",
+        "notebook",
+        "right",
+        "up"
+      ],
+      "filename": "notebook_arrow_diagonal_up_right_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/notebook_arrow_diagonal_up_right_20_filled.svg"
+    },
+    {
+      "id": "notebook_code",
+      "name": "Notebook Code",
+      "description": "Notebook with code content",
+      "tags": [
+        "code",
+        "document",
+        "notebook"
+      ],
+      "filename": "notebook_code_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/notebook_code_32_filled.svg"
+    },
+    {
+      "id": "notebook_globe",
+      "name": "Notebook Globe",
+      "description": "Notebook with global scope",
+      "tags": [
+        "document",
+        "globe",
+        "notebook"
+      ],
+      "filename": "notebook_globe_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/notebook_globe_20_filled.svg"
+    },
+    {
+      "id": "odata",
+      "name": "Odata",
+      "description": "OData protocol connection",
+      "tags": [
+        "data",
+        "odata"
+      ],
+      "filename": "odata_24_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/odata_24_filled.svg"
+    },
+    {
+      "id": "one_lake",
+      "name": "One Lake",
+      "description": "Microsoft OneLake unified data lake storage for Fabric",
+      "tags": [
+        "lake",
+        "one",
+        "storage"
+      ],
+      "filename": "one_lake_48_color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/one_lake_48_color.svg"
+    },
+    {
+      "id": "paginated_report",
+      "name": "Paginated Report",
+      "description": "Paginated report for pixel-perfect formatted reports",
+      "tags": [
+        "analytics",
+        "paginated",
+        "report"
+      ],
+      "filename": "paginated_report_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/paginated_report_48_item.svg"
+    },
+    {
+      "id": "partition_hint",
+      "name": "Partition Hint",
+      "description": "Partition hint for data distribution optimization",
+      "tags": [
+        "hint",
+        "partition"
+      ],
+      "filename": "partition_hint_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/partition_hint_32_filled.svg"
+    },
+    {
+      "id": "pipeline",
+      "name": "Pipeline",
+      "description": "Pipeline for orchestrating data movement and transformation in Data Factory",
+      "tags": [
+        "orchestration",
+        "pipeline"
+      ],
+      "filename": "pipeline_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/pipeline_48_item.svg"
+    },
+    {
+      "id": "pipeline_note",
+      "name": "Pipeline Note",
+      "description": "Pipeline with notes or documentation",
+      "tags": [
+        "note",
+        "orchestration",
+        "pipeline"
+      ],
+      "filename": "pipeline_note_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/pipeline_note_20_filled.svg"
+    },
+    {
+      "id": "policy",
+      "name": "Policy",
+      "description": "Policy for governance and compliance rules",
+      "tags": [
+        "governance",
+        "policy"
+      ],
+      "filename": "policy_20_dark_multi-color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/policy_20_dark_multi-color.svg"
+    },
+    {
+      "id": "power_bi",
+      "name": "Power Bi",
+      "description": "Power BI analytics and business intelligence workload",
+      "tags": [
+        "analytics",
+        "bi",
+        "power"
+      ],
+      "filename": "power_bi_48_color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/power_bi_48_color.svg"
+    },
+    {
+      "id": "real_time_dashboard",
+      "name": "Real Time Dashboard",
+      "description": "Real-Time Dashboard for live data monitoring and visualization",
+      "tags": [
+        "analytics",
+        "dashboard",
+        "real",
+        "time"
+      ],
+      "filename": "real_time_dashboard_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/real_time_dashboard_48_item.svg"
+    },
+    {
+      "id": "real_time_intelligence",
+      "name": "Real Time Intelligence",
+      "description": "Real-Time Intelligence workload for streaming data analytics",
+      "tags": [
+        "intelligence",
+        "real",
+        "time"
+      ],
+      "filename": "real_time_intelligence_48_color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/real_time_intelligence_48_color.svg"
+    },
+    {
+      "id": "receipt_kql",
+      "name": "Receipt Kql",
+      "description": "KQL receipt or query results",
+      "tags": [
+        "kql",
+        "query",
+        "receipt"
+      ],
+      "filename": "receipt_kql_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/receipt_kql_32_filled.svg"
+    },
+    {
+      "id": "receipt_kql_new",
+      "name": "Receipt Kql New",
+      "description": "New KQL receipt or query",
+      "tags": [
+        "kql",
+        "new",
+        "query",
+        "receipt"
+      ],
+      "filename": "receipt_kql_new_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/receipt_kql_new_20_filled.svg"
+    },
+    {
+      "id": "receipt_sparkle",
+      "name": "Receipt Sparkle",
+      "description": "Receipt with AI sparkle enhancement",
+      "tags": [
+        "ai",
+        "receipt",
+        "sparkle"
+      ],
+      "filename": "receipt_sparkle_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/receipt_sparkle_20_filled.svg"
+    },
+    {
+      "id": "receipt_sparkle_new",
+      "name": "Receipt Sparkle New",
+      "description": "New AI-enhanced receipt",
+      "tags": [
+        "ai",
+        "new",
+        "receipt",
+        "sparkle"
+      ],
+      "filename": "receipt_sparkle_new_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/receipt_sparkle_new_20_filled.svg"
+    },
+    {
+      "id": "reflex",
+      "name": "Reflex",
+      "description": "Reflex item for triggering automated actions based on data changes",
+      "tags": [
+        "reflex"
+      ],
+      "filename": "reflex_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/reflex_48_item.svg"
+    },
+    {
+      "id": "report",
+      "name": "Report",
+      "description": "Power BI report for interactive data visualization",
+      "tags": [
+        "analytics",
+        "report"
+      ],
+      "filename": "report_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/report_48_item.svg"
+    },
+    {
+      "id": "restricted_report",
+      "name": "Restricted Report",
+      "description": "Report with restricted access permissions",
+      "tags": [
+        "analytics",
+        "report",
+        "restricted"
+      ],
+      "filename": "restricted_report_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/restricted_report_48_item.svg"
+    },
+    {
+      "id": "restricted_scorecard",
+      "name": "Restricted Scorecard",
+      "description": "Scorecard with restricted access permissions",
+      "tags": [
+        "analytics",
+        "restricted",
+        "scorecard"
+      ],
+      "filename": "restricted_scorecard_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/restricted_scorecard_48_item.svg"
+    },
+    {
+      "id": "restriction",
+      "name": "Restriction",
+      "description": "Access restriction indicator",
+      "tags": [
+        "governance",
+        "restriction"
+      ],
+      "filename": "restriction_20_dark_multi-color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/restriction_20_dark_multi-color.svg"
+    },
+    {
+      "id": "retail",
+      "name": "Retail",
+      "description": "Retail industry solution in Fabric",
+      "tags": [
+        "retail"
+      ],
+      "filename": "retail_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/retail_48_item.svg"
+    },
+    {
+      "id": "sample",
+      "name": "Sample",
+      "description": "Sample data or template",
+      "tags": [
+        "sample"
+      ],
+      "filename": "sample_48_non-item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/sample_48_non-item.svg"
+    },
+    {
+      "id": "schema",
+      "name": "Schema",
+      "description": "Data schema definition",
+      "tags": [
+        "modeling",
+        "schema"
+      ],
+      "filename": "schema_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/schema_20_filled.svg"
+    },
+    {
+      "id": "schema_model",
+      "name": "Schema Model",
+      "description": "Schema model for defining data structures",
+      "tags": [
+        "model",
+        "modeling",
+        "schema"
+      ],
+      "filename": "schema_model_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/schema_model_48_item.svg"
+    },
+    {
+      "id": "scorecard",
+      "name": "Scorecard",
+      "description": "Scorecard for tracking goals and key metrics",
+      "tags": [
+        "analytics",
+        "scorecard"
+      ],
+      "filename": "scorecard_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/scorecard_48_item.svg"
+    },
+    {
+      "id": "script_kql",
+      "name": "Script Kql",
+      "description": "KQL script for Kusto query authoring",
+      "tags": [
+        "kql",
+        "query",
+        "script"
+      ],
+      "filename": "script_kql_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/script_kql_32_filled.svg"
+    },
+    {
+      "id": "script_kql_add",
+      "name": "Script Kql Add",
+      "description": "Add a new KQL script",
+      "tags": [
+        "add",
+        "kql",
+        "query",
+        "script"
+      ],
+      "filename": "script_kql_add_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/script_kql_add_20_filled.svg"
+    },
+    {
+      "id": "script_sparkle",
+      "name": "Script Sparkle",
+      "description": "Script with AI sparkle enhancement",
+      "tags": [
+        "ai",
+        "script",
+        "sparkle"
+      ],
+      "filename": "script_sparkle_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/script_sparkle_20_filled.svg"
+    },
+    {
+      "id": "script_sparkle_add",
+      "name": "Script Sparkle Add",
+      "description": "Add a new AI-enhanced script",
+      "tags": [
+        "add",
+        "ai",
+        "script",
+        "sparkle"
+      ],
+      "filename": "script_sparkle_add_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/script_sparkle_add_20_filled.svg"
+    },
+    {
+      "id": "semantic_model",
+      "name": "Semantic Model",
+      "description": "Semantic model (dataset) for defining business logic and relationships",
+      "tags": [
+        "model",
+        "modeling",
+        "semantic"
+      ],
+      "filename": "semantic_model_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/semantic_model_48_item.svg"
+    },
+    {
+      "id": "shared_semantic_model",
+      "name": "Shared Semantic Model",
+      "description": "Shared semantic model accessible across workspaces",
+      "tags": [
+        "model",
+        "modeling",
+        "semantic",
+        "shared"
+      ],
+      "filename": "shared_semantic_model_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/shared_semantic_model_48_item.svg"
+    },
+    {
+      "id": "spark_job_direction",
+      "name": "Spark Job Direction",
+      "description": "Spark job definition for configuring batch or streaming Spark applications",
+      "tags": [
+        "direction",
+        "job",
+        "spark"
+      ],
+      "filename": "spark_job_direction_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/spark_job_direction_48_item.svg"
+    },
+    {
+      "id": "sql_database",
+      "name": "Sql Database",
+      "description": "SQL Database item in Fabric for relational data storage",
+      "tags": [
+        "data",
+        "database",
+        "query",
+        "sql"
+      ],
+      "filename": "sql_database_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/sql_database_48_item.svg"
+    },
+    {
+      "id": "square_database",
+      "name": "Square Database",
+      "description": "Database in a square container",
+      "tags": [
+        "data",
+        "database",
+        "square",
+        "ui"
+      ],
+      "filename": "square_database_28_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/square_database_28_filled.svg"
+    },
+    {
+      "id": "square_database_arrow_up_down",
+      "name": "Square Database Arrow Up Down",
+      "description": "Database with vertical sorting arrows",
+      "tags": [
+        "arrow",
+        "data",
+        "database",
+        "down",
+        "navigation",
+        "square",
+        "ui",
+        "up"
+      ],
+      "filename": "square_database_arrow_up_down_28_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/square_database_arrow_up_down_28_filled.svg"
+    },
+    {
+      "id": "square_globe_arrow_up_down",
+      "name": "Square Globe Arrow Up Down",
+      "description": "Globe with vertical arrows for global data sync",
+      "tags": [
+        "arrow",
+        "down",
+        "globe",
+        "navigation",
+        "square",
+        "ui",
+        "up"
+      ],
+      "filename": "square_globe_arrow_up_down_28_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/square_globe_arrow_up_down_28_filled.svg"
+    },
+    {
+      "id": "square_multiple_data_bar_vertical",
+      "name": "Square Multiple Data Bar Vertical",
+      "description": "Multiple squares with vertical data bars",
+      "tags": [
+        "bar",
+        "data",
+        "multiple",
+        "square",
+        "ui",
+        "vertical",
+        "visualization"
+      ],
+      "filename": "square_multiple_data_bar_vertical_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/square_multiple_data_bar_vertical_20_filled.svg"
+    },
+    {
+      "id": "square_multiple_diagram",
+      "name": "Square Multiple Diagram",
+      "description": "Multiple squares arranged as a diagram",
+      "tags": [
+        "diagram",
+        "multiple",
+        "square",
+        "ui"
+      ],
+      "filename": "square_multiple_diagram_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/square_multiple_diagram_20_filled.svg"
+    },
+    {
+      "id": "square_multiple_diagram_new",
+      "name": "Square Multiple Diagram New",
+      "description": "New multi-square diagram",
+      "tags": [
+        "diagram",
+        "multiple",
+        "new",
+        "square",
+        "ui"
+      ],
+      "filename": "square_multiple_diagram_new_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/square_multiple_diagram_new_20_filled.svg"
+    },
+    {
+      "id": "square_multiple_overlap_kql",
+      "name": "Square Multiple Overlap Kql",
+      "description": "Overlapping squares with KQL",
+      "tags": [
+        "kql",
+        "multiple",
+        "overlap",
+        "query",
+        "square",
+        "ui"
+      ],
+      "filename": "square_multiple_overlap_kql_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/square_multiple_overlap_kql_32_filled.svg"
+    },
+    {
+      "id": "square_waves",
+      "name": "Square Waves",
+      "description": "Square with waves for streaming data",
+      "tags": [
+        "square",
+        "ui",
+        "waves"
+      ],
+      "filename": "square_waves_28_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/square_waves_28_filled.svg"
+    },
+    {
+      "id": "stream_bracket",
+      "name": "Stream Bracket",
+      "description": "Data stream with brackets",
+      "tags": [
+        "bracket",
+        "stream",
+        "streaming"
+      ],
+      "filename": "stream_bracket_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/stream_bracket_32_filled.svg"
+    },
+    {
+      "id": "stream_search",
+      "name": "Stream Search",
+      "description": "Search within data streams",
+      "tags": [
+        "search",
+        "stream",
+        "streaming"
+      ],
+      "filename": "stream_search_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/stream_search_20_filled.svg"
+    },
+    {
+      "id": "stream_settings",
+      "name": "Stream Settings",
+      "description": "Data stream configuration settings",
+      "tags": [
+        "settings",
+        "stream",
+        "streaming"
+      ],
+      "filename": "stream_settings_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/stream_settings_32_filled.svg"
+    },
+    {
+      "id": "stream_settings_bracket",
+      "name": "Stream Settings Bracket",
+      "description": "Data stream settings with brackets",
+      "tags": [
+        "bracket",
+        "settings",
+        "stream",
+        "streaming"
+      ],
+      "filename": "stream_settings_bracket_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/stream_settings_bracket_32_filled.svg"
+    },
+    {
+      "id": "streaming_dataflow",
+      "name": "Streaming Dataflow",
+      "description": "Streaming dataflow for continuous data processing",
+      "tags": [
+        "data",
+        "dataflow",
+        "orchestration",
+        "streaming"
+      ],
+      "filename": "streaming_dataflow_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/streaming_dataflow_48_item.svg"
+    },
+    {
+      "id": "streaming_semantic_model",
+      "name": "Streaming Semantic Model",
+      "description": "Streaming semantic model for real-time data modeling",
+      "tags": [
+        "model",
+        "modeling",
+        "semantic",
+        "streaming"
+      ],
+      "filename": "streaming_semantic_model_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/streaming_semantic_model_48_item.svg"
+    },
+    {
+      "id": "sustainability",
+      "name": "Sustainability",
+      "description": "Sustainability industry solution in Fabric",
+      "tags": [
+        "sustainability"
+      ],
+      "filename": "sustainability_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/sustainability_48_item.svg"
+    },
+    {
+      "id": "table_arrow_diagonal_up_right",
+      "name": "Table Arrow Diagonal Up Right",
+      "description": "Table with export arrow",
+      "tags": [
+        "arrow",
+        "data",
+        "diagonal",
+        "navigation",
+        "right",
+        "table",
+        "up"
+      ],
+      "filename": "table_arrow_diagonal_up_right_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_arrow_diagonal_up_right_20_filled.svg"
+    },
+    {
+      "id": "table_border_left",
+      "name": "Table Border Left",
+      "description": "Table with left border",
+      "tags": [
+        "border",
+        "data",
+        "left",
+        "table"
+      ],
+      "filename": "table_border_left_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_border_left_20_filled.svg"
+    },
+    {
+      "id": "table_broom",
+      "name": "Table Broom",
+      "description": "Table cleanup or data cleansing",
+      "tags": [
+        "broom",
+        "data",
+        "table"
+      ],
+      "filename": "table_broom_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_broom_20_filled.svg"
+    },
+    {
+      "id": "table_checkmark",
+      "name": "Table Checkmark",
+      "description": "Table with checkmark validation",
+      "tags": [
+        "checkmark",
+        "data",
+        "table"
+      ],
+      "filename": "table_checkmark_16_filled_multi-color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_checkmark_16_filled_multi-color.svg"
+    },
+    {
+      "id": "table_column_brackets",
+      "name": "Table Column Brackets",
+      "description": "Table column with brackets for expressions",
+      "tags": [
+        "brackets",
+        "column",
+        "data",
+        "table"
+      ],
+      "filename": "table_column_brackets_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_column_brackets_20_filled.svg"
+    },
+    {
+      "id": "table_column_function",
+      "name": "Table Column Function",
+      "description": "Table column with function formula",
+      "tags": [
+        "column",
+        "data",
+        "function",
+        "table"
+      ],
+      "filename": "table_column_function_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_column_function_20_filled.svg"
+    },
+    {
+      "id": "table_column_function_checkmark",
+      "name": "Table Column Function Checkmark",
+      "description": "Table column function with checkmark validation",
+      "tags": [
+        "checkmark",
+        "column",
+        "data",
+        "function",
+        "table"
+      ],
+      "filename": "table_column_function_checkmark_16_filled_multi-color.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_column_function_checkmark_16_filled_multi-color.svg"
+    },
+    {
+      "id": "table_column_question",
+      "name": "Table Column Question",
+      "description": "Table column with question or unknown type",
+      "tags": [
+        "column",
+        "data",
+        "question",
+        "table"
+      ],
+      "filename": "table_column_question_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_column_question_20_filled.svg"
+    },
+    {
+      "id": "table_column_sigma",
+      "name": "Table Column Sigma",
+      "description": "Table column with sigma for aggregation",
+      "tags": [
+        "column",
+        "data",
+        "sigma",
+        "table"
+      ],
+      "filename": "table_column_sigma_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_column_sigma_20_filled.svg"
+    },
+    {
+      "id": "table_database",
+      "name": "Table Database",
+      "description": "Database table view",
+      "tags": [
+        "data",
+        "database",
+        "table"
+      ],
+      "filename": "table_database_32_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_database_32_filled.svg"
+    },
+    {
+      "id": "table_external",
+      "name": "Table External",
+      "description": "External table reference",
+      "tags": [
+        "data",
+        "external",
+        "table"
+      ],
+      "filename": "table_external_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_external_20_filled.svg"
+    },
+    {
+      "id": "table_function",
+      "name": "Table Function",
+      "description": "Table function for computed tables",
+      "tags": [
+        "data",
+        "function",
+        "table"
+      ],
+      "filename": "table_function_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_function_20_filled.svg"
+    },
+    {
+      "id": "table_header",
+      "name": "Table Header",
+      "description": "Table header row",
+      "tags": [
+        "data",
+        "header",
+        "table"
+      ],
+      "filename": "table_header_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_header_20_filled.svg"
+    },
+    {
+      "id": "table_key",
+      "name": "Table Key",
+      "description": "Table with primary key",
+      "tags": [
+        "data",
+        "key",
+        "table"
+      ],
+      "filename": "table_key_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_key_20_filled.svg"
+    },
+    {
+      "id": "table_lightning_link",
+      "name": "Table Lightning Link",
+      "description": "Table with lightning link for real-time connection",
+      "tags": [
+        "data",
+        "lightning",
+        "link",
+        "table"
+      ],
+      "filename": "table_lightning_link_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_lightning_link_20_filled.svg"
+    },
+    {
+      "id": "table_link",
+      "name": "Table Link",
+      "description": "Table with link to related data",
+      "tags": [
+        "data",
+        "link",
+        "table"
+      ],
+      "filename": "table_link_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_link_20_filled.svg"
+    },
+    {
+      "id": "table_link_triangle",
+      "name": "Table Link Triangle",
+      "description": "Table with linked triangle relationship",
+      "tags": [
+        "data",
+        "link",
+        "table",
+        "triangle"
+      ],
+      "filename": "table_link_triangle_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_link_triangle_20_filled.svg"
+    },
+    {
+      "id": "table_multiple_arrow_curved_right",
+      "name": "Table Multiple Arrow Curved Right",
+      "description": "Multiple tables with curved right arrow",
+      "tags": [
+        "arrow",
+        "curved",
+        "data",
+        "multiple",
+        "navigation",
+        "right",
+        "table"
+      ],
+      "filename": "table_multiple_arrow_curved_right_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_multiple_arrow_curved_right_20_filled.svg"
+    },
+    {
+      "id": "table_multiple_arrow_curved_right_new",
+      "name": "Table Multiple Arrow Curved Right New",
+      "description": "New multiple tables transformation",
+      "tags": [
+        "arrow",
+        "curved",
+        "data",
+        "multiple",
+        "navigation",
+        "new",
+        "right",
+        "table"
+      ],
+      "filename": "table_multiple_arrow_curved_right_new_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_multiple_arrow_curved_right_new_20_filled.svg"
+    },
+    {
+      "id": "table_text_cdc",
+      "name": "Table Text Cdc",
+      "description": "Table with CDC (Change Data Capture) text",
+      "tags": [
+        "cdc",
+        "data",
+        "table",
+        "text"
+      ],
+      "filename": "table_text_cdc_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_text_cdc_20_filled.svg"
+    },
+    {
+      "id": "table_triangle",
+      "name": "Table Triangle",
+      "description": "Table with triangle relationship indicator",
+      "tags": [
+        "data",
+        "table",
+        "triangle"
+      ],
+      "filename": "table_triangle_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_triangle_20_filled.svg"
+    },
+    {
+      "id": "table_wand",
+      "name": "Table Wand",
+      "description": "Table with magic wand for auto-configuration",
+      "tags": [
+        "data",
+        "table",
+        "wand"
+      ],
+      "filename": "table_wand_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/table_wand_20_filled.svg"
+    },
+    {
+      "id": "variables",
+      "name": "Variables",
+      "description": "Variables item for storing reusable values",
+      "tags": [
+        "variables"
+      ],
+      "filename": "variables_48_item.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/variables_48_item.svg"
+    },
+    {
+      "id": "window_database_arrow_up",
+      "name": "Window Database Arrow Up",
+      "description": "Window with database upload",
+      "tags": [
+        "arrow",
+        "data",
+        "database",
+        "navigation",
+        "ui",
+        "up",
+        "window"
+      ],
+      "filename": "window_database_arrow_up_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/window_database_arrow_up_20_filled.svg"
+    },
+    {
+      "id": "window_relationship",
+      "name": "Window Relationship",
+      "description": "Window showing data relationships",
+      "tags": [
+        "relationship",
+        "ui",
+        "window"
+      ],
+      "filename": "window_relationship_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/window_relationship_20_filled.svg"
+    },
+    {
+      "id": "window_relationship_off",
+      "name": "Window Relationship Off",
+      "description": "Window with relationships disabled",
+      "tags": [
+        "off",
+        "relationship",
+        "ui",
+        "window"
+      ],
+      "filename": "window_relationship_off_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/window_relationship_off_20_filled.svg"
+    },
+    {
+      "id": "window_synapse_link",
+      "name": "Window Synapse Link",
+      "description": "Window with Synapse Link connection",
+      "tags": [
+        "link",
+        "synapse",
+        "ui",
+        "window"
+      ],
+      "filename": "window_synapse_link_20_filled.svg",
+      "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/window_synapse_link_20_filled.svg"
+    }
+  ]
+}
