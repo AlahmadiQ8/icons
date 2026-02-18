@@ -16,9 +16,11 @@ REPO = "AlahmadiQ8/icons"
 BRANCH = "main"
 BASE_URL = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/icons"
 
-ICONS_DIR = Path(__file__).resolve().parent.parent / "icons"
-DESCRIPTIONS_FILE = Path(__file__).resolve().parent.parent / "descriptions.json"
-OUTPUT_FILE = Path(__file__).resolve().parent.parent / "index.json"
+ROOT_DIR = Path(__file__).resolve().parent.parent
+ICONS_DIR = ROOT_DIR / "icons"
+DESCRIPTIONS_FILE = ROOT_DIR / "descriptions.json"
+OUTPUT_FILE = ROOT_DIR / "index.json"
+SKILL_INDEX_FILE = ROOT_DIR / "dist" / "fabric-icons" / "references" / "index.json"
 
 # Style priority: lower index = higher priority
 STYLE_PRIORITY = {
@@ -224,6 +226,12 @@ def main():
 
     with open(OUTPUT_FILE, "w") as f:
         json.dump(index, f, indent=2)
+
+    # Also copy into the skill if the directory exists
+    if SKILL_INDEX_FILE.parent.exists():
+        import shutil
+        shutil.copy2(OUTPUT_FILE, SKILL_INDEX_FILE)
+        print(f"Copied index to {SKILL_INDEX_FILE}")
 
     print(f"Generated {OUTPUT_FILE} with {len(icons)} icons")
 
