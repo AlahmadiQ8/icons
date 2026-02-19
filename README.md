@@ -81,13 +81,13 @@ Icons are from the official [`@fabric-msft/svg-icons`](https://www.npmjs.com/pac
 
 ### Packaging the Skill
 
-The skill at `dist/fabric-icons/` is a self-contained package agents can install to search and fetch icons. After rebuilding the index:
+The skill at `skills/azure-icons/` is a self-contained package agents can install to search and fetch icons. After rebuilding the index:
 
 ```bash
-python3 .claude/skills/skill-creator/scripts/package_skill.py dist/fabric-icons ./dist
+python3 .claude/skills/skill-creator/scripts/package_skill.py skills/azure-icons ./skills
 ```
 
-This validates and produces `dist/fabric-icons.skill`.
+This validates and produces `skills/azure-icons.skill`.
 
 The skill contains:
 - `SKILL.md` — trigger description and usage instructions

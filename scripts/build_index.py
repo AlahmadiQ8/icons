@@ -20,7 +20,7 @@ ROOT_DIR = Path(__file__).resolve().parent.parent
 ICONS_DIR = ROOT_DIR / "icons"
 DESCRIPTIONS_FILE = ROOT_DIR / "descriptions.json"
 OUTPUT_FILE = ROOT_DIR / "index.json"
-SKILL_INDEX_FILE = ROOT_DIR / "dist" / "fabric-icons" / "references" / "index.json"
+SKILL_INDEX_FILE = ROOT_DIR / "skills" / "azure-icons" / "references" / "index.json"
 
 # Style priority: lower index = higher priority
 STYLE_PRIORITY = {
