@@ -178,7 +178,7 @@ class BrowseInput(BaseModel):
         "openWorldHint": False,
     },
 )
-async def azure_icons_search(params: SearchInput) -> str:
+async def azure_icons_search(params: SearchInput) -> list[dict]:
     """Search for Azure and Fabric icons by keyword with fuzzy matching.
 
     Searches across icon IDs, names, tags, and descriptions. Supports partial
@@ -190,12 +190,12 @@ async def azure_icons_search(params: SearchInput) -> str:
             - limit (Optional[int]): Max results, 1-50, default 10
 
     Returns:
-        str: JSON array of matching icons, each with id, name, description,
-             tags, filename, and url. Empty array if no matches.
+        list[dict]: Matching icons, each with id, name, description,
+             tags, filename, and url. Empty list if no matches.
     """
     terms = _normalize(params.query).split()
     if not terms:
-        return json.dumps([])
+        return []
 
     scored = []
     for icon in _icons:
@@ -204,8 +204,7 @@ async def azure_icons_search(params: SearchInput) -> str:
             scored.append((score, icon))
 
     scored.sort(key=lambda x: x[0], reverse=True)
-    results = [icon for _, icon in scored[: params.limit]]
-    return json.dumps(results, indent=2)
+    return [icon for _, icon in scored[: params.limit]]
 
 
 @mcp.tool(
@@ -218,7 +217,7 @@ async def azure_icons_search(params: SearchInput) -> str:
         "openWorldHint": False,
     },
 )
-async def azure_icons_get(params: GetIconInput) -> str:
+async def azure_icons_get(params: GetIconInput) -> dict | str:
     """Get a specific icon by its exact ID.
 
     Returns full icon metadata including the raw GitHub URL for embedding
@@ -229,12 +228,12 @@ async def azure_icons_get(params: GetIconInput) -> str:
             - icon_id (str): Exact icon ID (e.g. "azure_cosmos_db", "lakehouse")
 
     Returns:
-        str: JSON object with icon details (id, name, description, tags, filename, url),
-             or an error message if the icon is not found.
+        dict: Icon details (id, name, description, tags, filename, url),
+              or error string if icon is not found.
     """
     icon = _icons_by_id.get(params.icon_id)
     if icon:
-        return json.dumps(icon, indent=2)
+        return icon
     return f"Error: Icon '{params.icon_id}' not found. Use azure_icons_search to find the correct ID."
 
 
@@ -248,18 +247,17 @@ async def azure_icons_get(params: GetIconInput) -> str:
         "openWorldHint": False,
     },
 )
-async def azure_icons_list_categories() -> str:
+async def azure_icons_list_categories() -> dict:
     """List all available icon categories with their icon counts.
 
     Categories are derived from icon descriptions and include areas like
     compute, networking, databases, security, ai + machine learning, etc.
 
     Returns:
-        str: JSON object mapping category names to icon counts, sorted by count descending.
+        dict: Category names mapped to icon counts, sorted by count descending.
     """
     result = {cat: len(icons) for cat, icons in _categories.items()}
-    sorted_result = dict(sorted(result.items(), key=lambda x: x[1], reverse=True))
-    return json.dumps(sorted_result, indent=2)
+    return dict(sorted(result.items(), key=lambda x: x[1], reverse=True))
 
 
 @mcp.tool(
@@ -272,7 +270,7 @@ async def azure_icons_list_categories() -> str:
         "openWorldHint": False,
     },
 )
-async def azure_icons_browse(params: BrowseInput) -> str:
+async def azure_icons_browse(params: BrowseInput) -> dict | str:
     """Browse icons with optional category filter and pagination.
 
     Use azure_icons_list_categories first to see available categories,
@@ -285,7 +283,7 @@ async def azure_icons_browse(params: BrowseInput) -> str:
             - offset (Optional[int]): Skip N results for pagination, default 0
 
     Returns:
-        str: JSON with total count, current page of icons, and pagination info.
+        dict: Object with total count, current page of icons, and pagination info.
     """
     if params.category:
         cat_lower = params.category.lower()
@@ -304,7 +302,7 @@ async def azure_icons_browse(params: BrowseInput) -> str:
     page = source[params.offset : params.offset + params.limit]
     has_more = total > params.offset + len(page)
 
-    response = {
+    return {
         "total": total,
         "count": len(page),
         "offset": params.offset,
@@ -312,4 +310,3 @@ async def azure_icons_browse(params: BrowseInput) -> str:
         "next_offset": params.offset + len(page) if has_more else None,
         "icons": page,
     }
-    return json.dumps(response, indent=2)
