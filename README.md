@@ -1,95 +1,55 @@
-# Microsoft Fabric Icons
+# Azure Icons
 
-A structured icon repository for **coding agents** to easily discover and use official [Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/) icons in diagrams, documentation, and UI.
+687 official Microsoft Azure and Fabric SVG icons for coding agents to use in architecture diagrams, documentation, and UI.
 
-## Quick Start (for Agents)
+Every icon has an `id`, `name`, `description`, `tags`, and a raw GitHub `url` pointing to the SVG so agents can search and embed icons directly.
 
-Fetch the icon index:
+## Option 1: MCP Server
 
-```
-https://raw.githubusercontent.com/AlahmadiQ8/icons/main/index.json
-```
-
-The index contains 175 icons, each with:
-
-| Field | Description |
-|-------|-------------|
-| `id` | Machine-friendly identifier (snake_case) |
-| `name` | Human-readable display name |
-| `description` | What the icon represents |
-| `tags` | Searchable keywords |
-| `filename` | SVG filename |
-| `url` | Direct raw GitHub URL to the SVG |
-
-### Example Entry
+Add to your MCP config (GitHub Copilot, Claude Desktop, Cursor, etc.):
 
 ```json
 {
-  "id": "lakehouse",
-  "name": "Lakehouse",
-  "description": "Lakehouse database built over a data lake for big data processing with Apache Spark and SQL",
-  "tags": ["data", "lakehouse", "storage"],
-  "filename": "lakehouse_48_item.svg",
-  "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/lakehouse_48_item.svg"
+  "mcpServers": {
+    "azure-icons": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/AlahmadiQ8/icons#subdirectory=mcp-server", "azure-icons-mcp"]
+    }
+  }
 }
 ```
 
-### Agent Usage
+**Tools provided:**
 
-1. Fetch `index.json` from the raw URL above
-2. Search by `id`, `name`, `tags`, or `description` to find the right icon
-3. Use the `url` field directly as an image source
+| Tool | Description |
+|------|-------------|
+| `azure_icons_search` | Fuzzy search icons by keyword (e.g. "cosmos db", "key vault") |
+| `azure_icons_get` | Get a specific icon by its exact ID |
+| `azure_icons_list_categories` | List all categories with icon counts |
+| `azure_icons_browse` | Browse icons with optional category filter and pagination |
+
+## Option 2: Agent Skill
+
+Install via [Skills CLI](https://github.com/vercel-labs/skills):
+
+```bash
+npx skills add AlahmadiQ8/icons@azure-icons
+```
+
+This gives your agent a fuzzy search script and a local icon index so it can find and fetch icons without any server running.
 
 ## Icon Source
 
-Icons are from the official [`@fabric-msft/svg-icons`](https://www.npmjs.com/package/@fabric-msft/svg-icons) package — the same icons used in the Microsoft Fabric product.
+Icons are from the official [`@fabric-msft/svg-icons`](https://www.npmjs.com/package/@fabric-msft/svg-icons) package and [Azure architecture icons](https://learn.microsoft.com/en-us/azure/architecture/icons/).
+
+---
 
 ## Maintainer Guide
 
 ### Adding New Icons
 
-1. Drop SVG files into `icons/` following the naming convention:
-   ```
-   <concept>_<size>_<style>.svg
-   ```
-   - **concept**: snake_case name (e.g. `lakehouse`, `data_warehouse`)
-   - **size**: 12, 16, 20, 24, 28, 32, 40, 48, or 64
-   - **style**: `color`, `filled`, `regular`, `item`, `non-item`, etc.
-   - Example: `my_new_item_48_color.svg`
-
-2. Add a curated description in `descriptions.json`:
-   ```json
-   {
-     "my_new_item": "Description of what this icon represents in Fabric"
-   }
-   ```
-   If omitted, a generic description is auto-generated from the concept name.
-
-3. Rebuild the index:
-   ```bash
-   python3 scripts/build_index.py
-   ```
-   This scans `icons/`, groups SVGs by concept, selects one representative per concept (preferring color/filled styles at 48px), merges curated descriptions from `descriptions.json`, and copies the result into the skill.
-
-4. Commit and push both `index.json` and the new SVGs.
-
-### Removing Icons
-
-1. Delete the SVG files from `icons/`
-2. Remove the entry from `descriptions.json`
+1. Drop SVG files into `icons/` following the naming convention: `<concept>_<size>_<style>.svg`
+2. Optionally add a description in `descriptions.json`
 3. Rebuild: `python3 scripts/build_index.py`
-
-### Packaging the Skill
-
-The skill at `skills/azure-icons/` is a self-contained package agents can install to search and fetch icons. After rebuilding the index:
-
-```bash
-python3 .claude/skills/skill-creator/scripts/package_skill.py skills/azure-icons ./skills
-```
-
-This validates and produces `skills/azure-icons.skill`.
-
-The skill contains:
-- `SKILL.md` — trigger description and usage instructions
-- `references/index.json` — the full icon index (auto-copied by `build_index.py`)
-- `scripts/search_icons.py` — fuzzy search script (agents run this instead of loading the full index)
+4. Repackage skill: `python3 .claude/skills/skill-creator/scripts/package_skill.py skills/azure-icons ./skills`
+5. Commit and push
