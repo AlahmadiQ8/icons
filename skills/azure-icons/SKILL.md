@@ -1,11 +1,11 @@
 ---
 name: azure-icons
-description: Search and fetch official Microsoft Azure and Fabric SVG icons for use in diagrams, documentation, and UI. Use when building architecture diagrams (HTML, PPTX, or any visual format) that need icons for Azure services (VMs, Storage, AKS, Cosmos DB, Key Vault, etc.) or Fabric concepts (Lakehouse, Data Warehouse, Pipeline, Eventhouse, Power BI, OneLake, Dataflow, Notebook, Semantic Model, KQL Database). Also use when the user asks for Microsoft Azure or Fabric icons.
+description: Search and fetch official Microsoft Azure and Fabric SVG icons for use in diagrams, documentation, and UI. Covers 687 icons across compute, networking, storage, databases, AI/ML, security, identity, containers, DevOps, analytics, IoT, integration, monitoring, migration, and Microsoft Fabric workloads. Use when building architecture diagrams (HTML, PPTX, or any visual format) that need Azure or Fabric icons, or when the user asks for Microsoft cloud service icons.
 ---
 
 # Azure Icons
 
-Official Microsoft Azure and Fabric SVG icons with metadata.
+687 official Microsoft Azure and Fabric SVG icons with metadata, covering all major Azure service categories.
 
 ## Finding Icons
 
@@ -17,9 +17,11 @@ python3 scripts/search_icons.py "<query>" [limit]
 
 Examples:
 ```bash
+python3 scripts/search_icons.py "cosmos db"
+python3 scripts/search_icons.py "virtual machine" 5
+python3 scripts/search_icons.py "key vault"
 python3 scripts/search_icons.py "lakehouse"
-python3 scripts/search_icons.py "pipeline" 5
-python3 scripts/search_icons.py "streaming kql"
+python3 scripts/search_icons.py "kubernetes"
 ```
 
 Returns matching icons as JSON with `id`, `name`, `description`, `tags`, and `url`. Use the `url` field directly as an image source.
@@ -30,20 +32,20 @@ For bulk operations or browsing all icons, read `references/index.json`.
 
 ```json
 {
-  "id": "lakehouse",
-  "name": "Lakehouse",
-  "description": "Lakehouse database built over a data lake for big data processing with Apache Spark and SQL",
-  "tags": ["data", "lakehouse", "storage"],
-  "filename": "lakehouse_48_item.svg",
-  "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/lakehouse_48_item.svg"
+  "id": "azure_cosmos_db",
+  "name": "Azure Cosmos Db",
+  "description": "Azure Azure Cosmos Db (databases)",
+  "tags": ["azure", "cosmos", "db"],
+  "filename": "azure_cosmos_db_48_color.svg",
+  "url": "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/azure_cosmos_db_48_color.svg"
 }
 ```
 
 ## Using Icons in HTML Diagrams
 
 ```html
-<img src="https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/lakehouse_48_item.svg"
-     alt="Lakehouse" width="48" height="48" />
+<img src="https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/azure_cosmos_db_48_color.svg"
+     alt="Azure Cosmos DB" width="48" height="48" />
 ```
 
 ## Using Icons in PPTX
@@ -55,7 +57,7 @@ from pptx import Presentation
 from pptx.util import Inches
 import urllib.request, tempfile, os
 
-url = "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/lakehouse_48_item.svg"
+url = "https://raw.githubusercontent.com/AlahmadiQ8/icons/main/icons/azure_cosmos_db_48_color.svg"
 tmp = tempfile.NamedTemporaryFile(suffix=".svg", delete=False)
 urllib.request.urlretrieve(url, tmp.name)
 
@@ -65,10 +67,32 @@ slide.shapes.add_picture(tmp.name, Inches(1), Inches(1), Inches(1), Inches(1))
 os.unlink(tmp.name)
 ```
 
-## Common Icon IDs
+## Icon Categories
 
-Key Fabric items: `lakehouse`, `data_warehouse`, `pipeline`, `notebook`, `dataflow_gen2`, `eventstream`, `event_house`, `kql_database`, `semantic_model`, `report`, `dashboard`, `sql_database`, `spark_job_direction`, `model`, `experiments`, `environment`, `copilot`, `reflex`, `datamart`, `copy_job`
+**Compute:** `virtual_machines`, `virtual_machine_scale_sets`, `azure_compute_galleries`, `function_apps`, `batch_accounts`, `cloud_services_classic`
 
-Workloads: `fabric`, `data_engineering`, `data_factory`, `data_science`, `real_time_intelligence`, `power_bi`, `databases`, `industry_solutions`
+**Networking:** `virtual_networks`, `load_balancers`, `application_gateways`, `dns_zones`, `front_doors`, `expressroute_circuits`, `nat_gateways`
 
-Storage: `one_lake`, `lakehouse`, `data_warehouse`, `sql_database`
+**Storage:** `storage_accounts`, `azure_container_storage`, `managed_disks`, `one_lake`
+
+**Databases:** `azure_cosmos_db`, `sql_server`, `azure_database_mariadb_server`, `azure_data_explorer_clusters`, `data_warehouse`, `sql_database`, `lakehouse`
+
+**AI + ML:** `ai_studio`, `azure_applied_ai_services`, `machine_learning`, `cognitive_services`, `anomaly_detector`, `ai_skills`
+
+**Containers:** `kubernetes_services`, `container_instances`, `container_registries`, `aks_automatic`
+
+**Security:** `defender_for_cloud`, `key_vaults`, `microsoft_sentinel`, `entra_id`
+
+**Identity:** `active_directory_connect_health`, `entra_domain_services`, `entra_identity_governance`, `administrative_units`
+
+**DevOps:** `devops`, `azure_chaos_studio`, `app_configuration`
+
+**Analytics:** `analysis_services`, `synapse_analytics`, `power_bi`, `data_factories`, `event_hubs`
+
+**Fabric:** `fabric`, `lakehouse`, `data_warehouse`, `pipeline`, `notebook`, `dataflow_gen2`, `eventstream`, `event_house`, `kql_database`, `semantic_model`, `copilot`
+
+**IoT:** `iot_hub`, `iot_edge`, `digital_twins`, `sphere`
+
+**Monitor:** `monitor`, `log_analytics_workspaces`, `application_insights`, `alerts`
+
+**Integration:** `api_management_services`, `logic_apps`, `service_bus`, `event_grid`

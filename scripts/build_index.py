@@ -21,6 +21,7 @@ ICONS_DIR = ROOT_DIR / "icons"
 DESCRIPTIONS_FILE = ROOT_DIR / "descriptions.json"
 OUTPUT_FILE = ROOT_DIR / "index.json"
 SKILL_INDEX_FILE = ROOT_DIR / "skills" / "azure-icons" / "references" / "index.json"
+MCP_INDEX_FILE = ROOT_DIR / "mcp-server" / "src" / "azure_icons_mcp" / "data" / "index.json"
 
 # Style priority: lower index = higher priority
 STYLE_PRIORITY = {
@@ -232,6 +233,12 @@ def main():
         import shutil
         shutil.copy2(OUTPUT_FILE, SKILL_INDEX_FILE)
         print(f"Copied index to {SKILL_INDEX_FILE}")
+
+    # Also copy into the MCP server package if the directory exists
+    if MCP_INDEX_FILE.parent.exists():
+        import shutil
+        shutil.copy2(OUTPUT_FILE, MCP_INDEX_FILE)
+        print(f"Copied index to {MCP_INDEX_FILE}")
 
     print(f"Generated {OUTPUT_FILE} with {len(icons)} icons")
 

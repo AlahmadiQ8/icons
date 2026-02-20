@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "azure-icons-mcp"
+version = "0.1.0"
+description = "MCP server for searching and fetching Microsoft Azure and Fabric SVG icons"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+]
+
+[project.scripts]
+azure-icons-mcp = "azure_icons_mcp:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/azure_icons_mcp"]
